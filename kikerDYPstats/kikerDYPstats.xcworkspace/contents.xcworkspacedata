@@ -2,10 +2,58 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/ilyadunaytsev/kiker DYP stats/kikerDYPstats/kikerDYPstats/LasVegas+CoreDataClass.swift">
+      location = "group:/Users/ilyadunaytsev/kiker DYP stats/kikerDYPstats/kikerDYPstats/Model Core data/PlayoffCoreData+CoreDataClass.swift">
    </FileRef>
    <FileRef
-      location = "group:/Users/ilyadunaytsev/kiker DYP stats/kikerDYPstats/kikerDYPstats/LasVegas+CoreDataProperties.swift">
+      location = "group:/Users/ilyadunaytsev/kiker DYP stats/kikerDYPstats/kikerDYPstats/Model Core data/PlayoffCoreData+CoreDataProperties.swift">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/ilyadunaytsev/kiker DYP stats/kikerDYPstats/kikerDYPstats/Model Core data/Team1ElementCoreData+CoreDataClass.swift">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/ilyadunaytsev/kiker DYP stats/kikerDYPstats/kikerDYPstats/Model Core data/Team1ElementCoreData+CoreDataProperties.swift">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/ilyadunaytsev/kiker DYP stats/kikerDYPstats/kikerDYPstats/Model Core data/PlayDisciplineCoreData+CoreDataClass.swift">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/ilyadunaytsev/kiker DYP stats/kikerDYPstats/kikerDYPstats/Model Core data/PlayDisciplineCoreData+CoreDataProperties.swift">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/ilyadunaytsev/kiker DYP stats/kikerDYPstats/kikerDYPstats/Model Core data/RoundPlayCoreData+CoreDataClass.swift">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/ilyadunaytsev/kiker DYP stats/kikerDYPstats/kikerDYPstats/Model Core data/RoundPlayCoreData+CoreDataProperties.swift">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/ilyadunaytsev/kiker DYP stats/kikerDYPstats/kikerDYPstats/Model Core data/KikerTournament+CoreDataClass.swift">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/ilyadunaytsev/kiker DYP stats/kikerDYPstats/kikerDYPstats/Model Core data/KikerTournament+CoreDataProperties.swift">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/ilyadunaytsev/kiker DYP stats/kikerDYPstats/kikerDYPstats/Model Core data/RoundCoreData+CoreDataClass.swift">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/ilyadunaytsev/kiker DYP stats/kikerDYPstats/kikerDYPstats/Model Core data/RoundCoreData+CoreDataProperties.swift">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/ilyadunaytsev/kiker DYP stats/kikerDYPstats/kikerDYPstats/Model Core data/SetCoreData+CoreDataClass.swift">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/ilyadunaytsev/kiker DYP stats/kikerDYPstats/kikerDYPstats/Model Core data/SetCoreData+CoreDataProperties.swift">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/ilyadunaytsev/kiker DYP stats/kikerDYPstats/kikerDYPstats/Model Core data/TeamCoreData+CoreDataClass.swift">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/ilyadunaytsev/kiker DYP stats/kikerDYPstats/kikerDYPstats/Model Core data/TeamCoreData+CoreDataProperties.swift">
+   </FileRef>
+   <FileRef
+      location = "group:KikerPlayerCoreData+CoreDataClass.swift">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/ilyadunaytsev/kiker DYP stats/kikerDYPstats/kikerDYPstats/KikerPlayerCoreData+CoreDataProperties.swift">
    </FileRef>
    <FileRef
       location = "group:kikerDYPstats.xcodeproj">

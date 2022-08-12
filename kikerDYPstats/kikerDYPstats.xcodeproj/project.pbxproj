@@ -16,8 +16,24 @@
 		336FF380289EF1A3003A0A59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 336FF37E289EF1A3003A0A59 /* LaunchScreen.storyboard */; };
 		336FF388289EF585003A0A59 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 336FF387289EF585003A0A59 /* GoogleService-Info.plist */; };
 		3391B64C289F0C3A00858518 /* ModelKikerJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3391B64B289F0C3A00858518 /* ModelKikerJSON.swift */; };
-		3391B64F289F112600858518 /* LasVegas+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3391B64D289F112600858518 /* LasVegas+CoreDataClass.swift */; };
-		3391B650289F112600858518 /* LasVegas+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3391B64E289F112600858518 /* LasVegas+CoreDataProperties.swift */; };
+		3391B66F28A5473E00858518 /* KikerPlayerCoreData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3391B66E28A5473E00858518 /* KikerPlayerCoreData+CoreDataProperties.swift */; };
+		3391B67128A5474700858518 /* KikerPlayerCoreData+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3391B67028A5474700858518 /* KikerPlayerCoreData+CoreDataClass.swift */; };
+		3391B68228A5475D00858518 /* SetCoreData+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3391B67D28A5475D00858518 /* SetCoreData+CoreDataClass.swift */; };
+		3391B68328A5475D00858518 /* PlayDisciplineCoreData+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3391B67E28A5475D00858518 /* PlayDisciplineCoreData+CoreDataClass.swift */; };
+		3391B68428A5475D00858518 /* PlayoffCoreData+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3391B68128A5475D00858518 /* PlayoffCoreData+CoreDataClass.swift */; };
+		3391B68528A5475D00858518 /* Team1ElementCoreData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3391B67228A5475C00858518 /* Team1ElementCoreData+CoreDataProperties.swift */; };
+		3391B68628A5475D00858518 /* PlayDisciplineCoreData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3391B67628A5475C00858518 /* PlayDisciplineCoreData+CoreDataProperties.swift */; };
+		3391B68728A5475D00858518 /* TeamCoreData+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3391B67F28A5475D00858518 /* TeamCoreData+CoreDataClass.swift */; };
+		3391B68828A5475D00858518 /* RoundPlayCoreData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3391B67C28A5475D00858518 /* RoundPlayCoreData+CoreDataProperties.swift */; };
+		3391B68928A5475D00858518 /* SetCoreData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3391B67928A5475C00858518 /* SetCoreData+CoreDataProperties.swift */; };
+		3391B68A28A5475D00858518 /* TeamCoreData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3391B67328A5475C00858518 /* TeamCoreData+CoreDataProperties.swift */; };
+		3391B68B28A5475D00858518 /* KikerTournament+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3391B67828A5475C00858518 /* KikerTournament+CoreDataClass.swift */; };
+		3391B68C28A5475D00858518 /* RoundCoreData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3391B67528A5475C00858518 /* RoundCoreData+CoreDataProperties.swift */; };
+		3391B68D28A5475D00858518 /* Team1ElementCoreData+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3391B67428A5475C00858518 /* Team1ElementCoreData+CoreDataClass.swift */; };
+		3391B68E28A5475D00858518 /* RoundCoreData+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3391B67A28A5475C00858518 /* RoundCoreData+CoreDataClass.swift */; };
+		3391B68F28A5475D00858518 /* KikerTournament+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3391B67B28A5475D00858518 /* KikerTournament+CoreDataProperties.swift */; };
+		3391B69028A5475D00858518 /* RoundPlayCoreData+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3391B67728A5475C00858518 /* RoundPlayCoreData+CoreDataClass.swift */; };
+		3391B69128A5475D00858518 /* PlayoffCoreData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3391B68028A5475D00858518 /* PlayoffCoreData+CoreDataProperties.swift */; };
 		BE738E4A365122F80C6D565D /* Pods_kikerDYPstats.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CC6587053CBA61645668D5C /* Pods_kikerDYPstats.framework */; };
 /* End PBXBuildFile section */
 
@@ -33,8 +49,24 @@
 		336FF381289EF1A3003A0A59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		336FF387289EF585003A0A59 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3391B64B289F0C3A00858518 /* ModelKikerJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelKikerJSON.swift; sourceTree = "<group>"; };
-		3391B64D289F112600858518 /* LasVegas+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "LasVegas+CoreDataClass.swift"; path = "/Users/ilyadunaytsev/kiker DYP stats/kikerDYPstats/kikerDYPstats/LasVegas+CoreDataClass.swift"; sourceTree = "<absolute>"; };
-		3391B64E289F112600858518 /* LasVegas+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "LasVegas+CoreDataProperties.swift"; path = "/Users/ilyadunaytsev/kiker DYP stats/kikerDYPstats/kikerDYPstats/LasVegas+CoreDataProperties.swift"; sourceTree = "<absolute>"; };
+		3391B66E28A5473E00858518 /* KikerPlayerCoreData+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "KikerPlayerCoreData+CoreDataProperties.swift"; path = "/Users/ilyadunaytsev/kiker DYP stats/kikerDYPstats/kikerDYPstats/KikerPlayerCoreData+CoreDataProperties.swift"; sourceTree = "<absolute>"; };
+		3391B67028A5474700858518 /* KikerPlayerCoreData+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "KikerPlayerCoreData+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3391B67228A5475C00858518 /* Team1ElementCoreData+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Team1ElementCoreData+CoreDataProperties.swift"; path = "/Users/ilyadunaytsev/kiker DYP stats/kikerDYPstats/kikerDYPstats/Model Core data/Team1ElementCoreData+CoreDataProperties.swift"; sourceTree = "<absolute>"; };
+		3391B67328A5475C00858518 /* TeamCoreData+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "TeamCoreData+CoreDataProperties.swift"; path = "/Users/ilyadunaytsev/kiker DYP stats/kikerDYPstats/kikerDYPstats/Model Core data/TeamCoreData+CoreDataProperties.swift"; sourceTree = "<absolute>"; };
+		3391B67428A5475C00858518 /* Team1ElementCoreData+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Team1ElementCoreData+CoreDataClass.swift"; path = "/Users/ilyadunaytsev/kiker DYP stats/kikerDYPstats/kikerDYPstats/Model Core data/Team1ElementCoreData+CoreDataClass.swift"; sourceTree = "<absolute>"; };
+		3391B67528A5475C00858518 /* RoundCoreData+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "RoundCoreData+CoreDataProperties.swift"; path = "/Users/ilyadunaytsev/kiker DYP stats/kikerDYPstats/kikerDYPstats/Model Core data/RoundCoreData+CoreDataProperties.swift"; sourceTree = "<absolute>"; };
+		3391B67628A5475C00858518 /* PlayDisciplineCoreData+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "PlayDisciplineCoreData+CoreDataProperties.swift"; path = "/Users/ilyadunaytsev/kiker DYP stats/kikerDYPstats/kikerDYPstats/Model Core data/PlayDisciplineCoreData+CoreDataProperties.swift"; sourceTree = "<absolute>"; };
+		3391B67728A5475C00858518 /* RoundPlayCoreData+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "RoundPlayCoreData+CoreDataClass.swift"; path = "/Users/ilyadunaytsev/kiker DYP stats/kikerDYPstats/kikerDYPstats/Model Core data/RoundPlayCoreData+CoreDataClass.swift"; sourceTree = "<absolute>"; };
+		3391B67828A5475C00858518 /* KikerTournament+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "KikerTournament+CoreDataClass.swift"; path = "/Users/ilyadunaytsev/kiker DYP stats/kikerDYPstats/kikerDYPstats/Model Core data/KikerTournament+CoreDataClass.swift"; sourceTree = "<absolute>"; };
+		3391B67928A5475C00858518 /* SetCoreData+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "SetCoreData+CoreDataProperties.swift"; path = "/Users/ilyadunaytsev/kiker DYP stats/kikerDYPstats/kikerDYPstats/Model Core data/SetCoreData+CoreDataProperties.swift"; sourceTree = "<absolute>"; };
+		3391B67A28A5475C00858518 /* RoundCoreData+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "RoundCoreData+CoreDataClass.swift"; path = "/Users/ilyadunaytsev/kiker DYP stats/kikerDYPstats/kikerDYPstats/Model Core data/RoundCoreData+CoreDataClass.swift"; sourceTree = "<absolute>"; };
+		3391B67B28A5475D00858518 /* KikerTournament+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "KikerTournament+CoreDataProperties.swift"; path = "/Users/ilyadunaytsev/kiker DYP stats/kikerDYPstats/kikerDYPstats/Model Core data/KikerTournament+CoreDataProperties.swift"; sourceTree = "<absolute>"; };
+		3391B67C28A5475D00858518 /* RoundPlayCoreData+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "RoundPlayCoreData+CoreDataProperties.swift"; path = "/Users/ilyadunaytsev/kiker DYP stats/kikerDYPstats/kikerDYPstats/Model Core data/RoundPlayCoreData+CoreDataProperties.swift"; sourceTree = "<absolute>"; };
+		3391B67D28A5475D00858518 /* SetCoreData+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "SetCoreData+CoreDataClass.swift"; path = "/Users/ilyadunaytsev/kiker DYP stats/kikerDYPstats/kikerDYPstats/Model Core data/SetCoreData+CoreDataClass.swift"; sourceTree = "<absolute>"; };
+		3391B67E28A5475D00858518 /* PlayDisciplineCoreData+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "PlayDisciplineCoreData+CoreDataClass.swift"; path = "/Users/ilyadunaytsev/kiker DYP stats/kikerDYPstats/kikerDYPstats/Model Core data/PlayDisciplineCoreData+CoreDataClass.swift"; sourceTree = "<absolute>"; };
+		3391B67F28A5475D00858518 /* TeamCoreData+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "TeamCoreData+CoreDataClass.swift"; path = "/Users/ilyadunaytsev/kiker DYP stats/kikerDYPstats/kikerDYPstats/Model Core data/TeamCoreData+CoreDataClass.swift"; sourceTree = "<absolute>"; };
+		3391B68028A5475D00858518 /* PlayoffCoreData+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "PlayoffCoreData+CoreDataProperties.swift"; path = "/Users/ilyadunaytsev/kiker DYP stats/kikerDYPstats/kikerDYPstats/Model Core data/PlayoffCoreData+CoreDataProperties.swift"; sourceTree = "<absolute>"; };
+		3391B68128A5475D00858518 /* PlayoffCoreData+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "PlayoffCoreData+CoreDataClass.swift"; path = "/Users/ilyadunaytsev/kiker DYP stats/kikerDYPstats/kikerDYPstats/Model Core data/PlayoffCoreData+CoreDataClass.swift"; sourceTree = "<absolute>"; };
 		5CC6587053CBA61645668D5C /* Pods_kikerDYPstats.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kikerDYPstats.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73AAFEEC091F105DE296D354 /* Pods-kikerDYPstats.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kikerDYPstats.debug.xcconfig"; path = "Target Support Files/Pods-kikerDYPstats/Pods-kikerDYPstats.debug.xcconfig"; sourceTree = "<group>"; };
 		7C9C8C8BB421924B57E97F13 /* Pods-kikerDYPstats.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kikerDYPstats.release.xcconfig"; path = "Target Support Files/Pods-kikerDYPstats/Pods-kikerDYPstats.release.xcconfig"; sourceTree = "<group>"; };
@@ -73,12 +105,11 @@
 		336FF36F289EF1A1003A0A59 /* kikerDYPstats */ = {
 			isa = PBXGroup;
 			children = (
+				3391B651289FEB2000858518 /* Model Core data */,
 				336FF370289EF1A1003A0A59 /* AppDelegate.swift */,
 				336FF372289EF1A1003A0A59 /* SceneDelegate.swift */,
 				336FF374289EF1A1003A0A59 /* ViewController.swift */,
 				3391B64B289F0C3A00858518 /* ModelKikerJSON.swift */,
-				3391B64D289F112600858518 /* LasVegas+CoreDataClass.swift */,
-				3391B64E289F112600858518 /* LasVegas+CoreDataProperties.swift */,
 				336FF376289EF1A1003A0A59 /* Main.storyboard */,
 				336FF37C289EF1A3003A0A59 /* Assets.xcassets */,
 				336FF37E289EF1A3003A0A59 /* LaunchScreen.storyboard */,
@@ -87,6 +118,31 @@
 				336FF379289EF1A1003A0A59 /* kikerDYPstats.xcdatamodeld */,
 			);
 			path = kikerDYPstats;
+			sourceTree = "<group>";
+		};
+		3391B651289FEB2000858518 /* Model Core data */ = {
+			isa = PBXGroup;
+			children = (
+				3391B68128A5475D00858518 /* PlayoffCoreData+CoreDataClass.swift */,
+				3391B68028A5475D00858518 /* PlayoffCoreData+CoreDataProperties.swift */,
+				3391B67428A5475C00858518 /* Team1ElementCoreData+CoreDataClass.swift */,
+				3391B67228A5475C00858518 /* Team1ElementCoreData+CoreDataProperties.swift */,
+				3391B67E28A5475D00858518 /* PlayDisciplineCoreData+CoreDataClass.swift */,
+				3391B67628A5475C00858518 /* PlayDisciplineCoreData+CoreDataProperties.swift */,
+				3391B67728A5475C00858518 /* RoundPlayCoreData+CoreDataClass.swift */,
+				3391B67C28A5475D00858518 /* RoundPlayCoreData+CoreDataProperties.swift */,
+				3391B67828A5475C00858518 /* KikerTournament+CoreDataClass.swift */,
+				3391B67B28A5475D00858518 /* KikerTournament+CoreDataProperties.swift */,
+				3391B67A28A5475C00858518 /* RoundCoreData+CoreDataClass.swift */,
+				3391B67528A5475C00858518 /* RoundCoreData+CoreDataProperties.swift */,
+				3391B67D28A5475D00858518 /* SetCoreData+CoreDataClass.swift */,
+				3391B67928A5475C00858518 /* SetCoreData+CoreDataProperties.swift */,
+				3391B67F28A5475D00858518 /* TeamCoreData+CoreDataClass.swift */,
+				3391B67328A5475C00858518 /* TeamCoreData+CoreDataProperties.swift */,
+				3391B66E28A5473E00858518 /* KikerPlayerCoreData+CoreDataProperties.swift */,
+				3391B67028A5474700858518 /* KikerPlayerCoreData+CoreDataClass.swift */,
+			);
+			path = "Model Core data";
 			sourceTree = "<group>";
 		};
 		5336681DCD6D70064C968D68 /* Frameworks */ = {
@@ -227,11 +283,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				336FF37B289EF1A1003A0A59 /* kikerDYPstats.xcdatamodeld in Sources */,
+				3391B68828A5475D00858518 /* RoundPlayCoreData+CoreDataProperties.swift in Sources */,
+				3391B68928A5475D00858518 /* SetCoreData+CoreDataProperties.swift in Sources */,
 				336FF375289EF1A1003A0A59 /* ViewController.swift in Sources */,
-				3391B650289F112600858518 /* LasVegas+CoreDataProperties.swift in Sources */,
+				3391B68628A5475D00858518 /* PlayDisciplineCoreData+CoreDataProperties.swift in Sources */,
+				3391B69028A5475D00858518 /* RoundPlayCoreData+CoreDataClass.swift in Sources */,
+				3391B68D28A5475D00858518 /* Team1ElementCoreData+CoreDataClass.swift in Sources */,
+				3391B68A28A5475D00858518 /* TeamCoreData+CoreDataProperties.swift in Sources */,
+				3391B68F28A5475D00858518 /* KikerTournament+CoreDataProperties.swift in Sources */,
+				3391B68B28A5475D00858518 /* KikerTournament+CoreDataClass.swift in Sources */,
+				3391B68428A5475D00858518 /* PlayoffCoreData+CoreDataClass.swift in Sources */,
+				3391B68E28A5475D00858518 /* RoundCoreData+CoreDataClass.swift in Sources */,
 				336FF371289EF1A1003A0A59 /* AppDelegate.swift in Sources */,
-				3391B64F289F112600858518 /* LasVegas+CoreDataClass.swift in Sources */,
+				3391B69128A5475D00858518 /* PlayoffCoreData+CoreDataProperties.swift in Sources */,
+				3391B68528A5475D00858518 /* Team1ElementCoreData+CoreDataProperties.swift in Sources */,
 				3391B64C289F0C3A00858518 /* ModelKikerJSON.swift in Sources */,
+				3391B68C28A5475D00858518 /* RoundCoreData+CoreDataProperties.swift in Sources */,
+				3391B66F28A5473E00858518 /* KikerPlayerCoreData+CoreDataProperties.swift in Sources */,
+				3391B68228A5475D00858518 /* SetCoreData+CoreDataClass.swift in Sources */,
+				3391B67128A5474700858518 /* KikerPlayerCoreData+CoreDataClass.swift in Sources */,
+				3391B68328A5475D00858518 /* PlayDisciplineCoreData+CoreDataClass.swift in Sources */,
+				3391B68728A5475D00858518 /* TeamCoreData+CoreDataClass.swift in Sources */,
 				336FF373289EF1A1003A0A59 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

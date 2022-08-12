@@ -1,12 +1,81 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="20086" systemVersion="21A559" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="KikerPlayerCoreData" representedClassName="KikerPlayerCoreData" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="starIndex" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="weight" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="kikerTournament" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="KikerTournament" inverseName="kikerPlayerCoreData" inverseEntity="KikerTournament"/>
+    </entity>
+    <entity name="KikerTournament" representedClassName=".KikerTournament" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="mode" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+        <relationship name="kikerPlayerCoreData" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="KikerPlayerCoreData" inverseName="kikerTournament" inverseEntity="KikerPlayerCoreData"/>
+        <relationship name="playoffCoreData" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="PlayoffCoreData" inverseName="kikerTournament" inverseEntity="PlayoffCoreData"/>
+        <relationship name="roundsCoreData" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="RoundCoreData" inverseName="kikerTournament" inverseEntity="RoundCoreData"/>
+        <relationship name="teamsCoreData" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="TeamCoreData" inverseName="kikerTournament" inverseEntity="TeamCoreData"/>
+    </entity>
     <entity name="LasVegas" representedClassName="LasVegas" syncable="YES">
         <attribute name="onePerson" optional="YES" attributeType="String"/>
         <attribute name="rulet" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
         <attribute name="twoPerson" optional="YES" attributeType="String"/>
         <attribute name="win" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
     </entity>
+    <entity name="PlayDisciplineCoreData" representedClassName="PlayDisciplineCoreData" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="playID" optional="YES" attributeType="String"/>
+        <relationship name="setsCoreData" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="SetCoreData" inverseName="playDisciplineCoreData" inverseEntity="SetCoreData"/>
+    </entity>
+    <entity name="PlayoffCoreData" representedClassName="PlayoffCoreData" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+        <relationship name="kikerTournament" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="KikerTournament" inverseName="playoffCoreData" inverseEntity="KikerTournament"/>
+        <relationship name="roundsCoreData" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="RoundCoreData"/>
+    </entity>
+    <entity name="RoundCoreData" representedClassName="RoundCoreData" syncable="YES">
+        <attribute name="deactivated" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="kikerTournament" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="KikerTournament" inverseName="roundsCoreData" inverseEntity="KikerTournament"/>
+        <relationship name="playoffsCoreData" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="RoundCoreData" inverseName="playoffsCoreData" inverseEntity="RoundCoreData"/>
+        <relationship name="roundPlaysCoreData" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="RoundPlayCoreData" inverseName="roundsCoreData" inverseEntity="RoundPlayCoreData"/>
+    </entity>
+    <entity name="RoundPlayCoreData" representedClassName="RoundPlayCoreData" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="valid" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="winner" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="playDiscoplineCoreData" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="PlayDisciplineCoreData"/>
+        <relationship name="roundsCoreData" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="RoundCoreData" inverseName="roundPlaysCoreData" inverseEntity="RoundCoreData"/>
+        <relationship name="team1ElementsCoreData" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Team1ElementCoreData" inverseName="team1ElementCoreData" inverseEntity="Team1ElementCoreData"/>
+    </entity>
+    <entity name="SetCoreData" representedClassName="SetCoreData" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="team1" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="team2" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="playDisciplineCoreData" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PlayDisciplineCoreData" inverseName="setsCoreData" inverseEntity="PlayDisciplineCoreData"/>
+    </entity>
+    <entity name="Team1ElementCoreData" representedClassName="Team1ElementCoreData" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <relationship name="team1ElementCoreData" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="RoundPlayCoreData" inverseName="team1ElementsCoreData" inverseEntity="RoundPlayCoreData"/>
+        <relationship name="teamsCoreData" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="TeamCoreData" inverseName="team1ElementsCoreData" inverseEntity="TeamCoreData"/>
+    </entity>
+    <entity name="TeamCoreData" representedClassName="TeamCoreData" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <relationship name="kikerTournament" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="KikerTournament" inverseName="teamsCoreData" inverseEntity="KikerTournament"/>
+        <relationship name="team1ElementsCoreData" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Team1ElementCoreData" inverseName="teamsCoreData" inverseEntity="Team1ElementCoreData"/>
+    </entity>
     <elements>
-        <element name="LasVegas" positionX="-63" positionY="-18" width="128" height="89"/>
+        <element name="KikerPlayerCoreData" positionX="-523.96875" positionY="-64.06640625" width="128" height="118"/>
+        <element name="KikerTournament" positionX="-223.2734375" positionY="-82.3984375" width="128" height="163"/>
+        <element name="LasVegas" positionX="-146.09765625" positionY="-127.6640625" width="128" height="89"/>
+        <element name="TeamCoreData" positionX="-306" positionY="-18" width="128" height="74"/>
+        <element name="Team1ElementCoreData" positionX="-297" positionY="-9" width="128" height="74"/>
+        <element name="RoundCoreData" positionX="-288" positionY="0" width="128" height="119"/>
+        <element name="RoundPlayCoreData" positionX="-279" positionY="9" width="128" height="119"/>
+        <element name="PlayDisciplineCoreData" positionX="-333" positionY="-36" width="128" height="74"/>
+        <element name="SetCoreData" positionX="-324" positionY="-27" width="128" height="89"/>
+        <element name="PlayoffCoreData" positionX="-315" positionY="-18" width="128" height="89"/>
     </elements>
 </model>
